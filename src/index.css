@@ -1,0 +1,11 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.animation-blink {
+  animation: blink 0.7s step-end infinite;
+}
